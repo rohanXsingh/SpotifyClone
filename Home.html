@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HomeSpotify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\Home.css">
+</head>
+<body id = "body">
+
+    <!--This is the top container #nav -->
+    <nav class = "navbar navbar-expand-lg backgroundNav">
+        
+            
+        <a href="" class="navbar-brand backgroundNav">
+            <img src="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\img\slide3.png" alt="LOGO" class = "logo">
+                <span class = "backgroundNav headContent">SPOTiFY</span>
+        </a>
+            
+         
+        <div class="navbar collapse navbar-collapse backgroundNav justify-content-end headContent">
+            <ul class = "nav ">
+                        <li class = "nav-link headContent backgroundNav">Home</li>
+                        <li class = "nav-link headContent backgroundNav">About</li>
+                        <li id = "DJMode" class = "nav-link headContent backgroundNav">DJMode</li>
+            </ul>
+        </div>        
+    </nav>
+
+<!--This is the middle container between NAV and Bottom-->
+
+    <div class="container  middleContainer">
+
+        <div class="row">
+            <div class="col halfDiv1"> 
+              <h4 style="font-family: 'Courier New', Courier, monospace;">Best Songs Of 90's</h4>
+              
+              <div class="row roh">
+                <div class="col"><span class="songName">Ishq</span></div>
+                <div class="roh2 col"><span>4.30</span>
+                    <span><i id = "1" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">B</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "2" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">C</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "3" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">D</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "4" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">E</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "5" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">F</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "6" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">G</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "7" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">H</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "8" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+
+              <div class="row roh">
+                <div class="col"><span class="songName">I</span></div>
+                <div class="roh2 col"><span>5:30</span>
+                    <span><i id = "9" class="fas songItemPlay fa-play-circle"></i>
+                    </span>    
+                </div>
+                
+              </div><br>
+                         
+            </div>
+
+        
+          <div class="col halfDiv2">
+            
+                <div  class = "songTab container">
+
+                    <div class="imgTab">
+                        <img id = "image2" src="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\img\dance.gif" alt="Banner" style="height:
+                        200px; width: 200px;">
+                    </div>
+
+                    <div class="playTab">
+                        <input type="range" name = "range" class = "progressBar" id = "progressBar" min="0" vlaue = "0" max="100">
+                        <span class="myspan">5:30</span>
+
+                        <div class="container plyTabdiv1">
+                            
+                            <div class="iconsInBar">
+                                <i id = "prev" class="fas fa fa-fast-backward"></i>
+                                <i id = "masterPlay" class="fas fa fa-play-circle"></i>
+                                <i id = "next" class="fas fa fa-fast-forward"></i>
+                
+                            </div>
+                            
+                        </div>
+                       
+                        <div class="container plyTabdiv2">
+                            <span id = "masterSong"></span>
+                        </div>
+                        
+                    </div>
+                    
+               
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<!--This is the Bottom-->
+    <div class="bottomContainer" >
+        <img id = "Gif" class = "bottomContainerImage" src="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\img\musicImage.gif" alt="">
+            
+        </div>   
+          
+    </div>
+
+    <script src="https://kit.fontawesome.com/62f078a0f4.js" crossorigin="anonymous"></script>
+    <script src="C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\Home.js"></script>
+</body>
+
+
+</html>

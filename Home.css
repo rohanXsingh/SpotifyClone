@@ -1,0 +1,211 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(130, 126, 126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    background-image: url("C:\Users\rohan.h.singh\Desktop\rohan\Learn\my_app\mySpotify\spot\img\dance.gif");
+    
+}
+.backgroundNav{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    
+}
+.headContent{
+    color: rgb(18, 150, 32);
+    text-transform: uppercase;
+    text-transform: bold;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
+    border: 2px salmon;
+}
+
+.middleContainer{
+    height: 54.5vh;
+    width: 100%;
+    background-color:rgb(130, 126, 126);
+    display: grid;
+    flex-direction:row;
+
+}
+
+.halfDiv1{
+    height: 72vh;
+    width: 40%;
+    background-color: rgb(5, 4, 4);
+    overflow: auto;
+    padding: 10px;
+
+   
+}
+
+.halfDiv1 h4{
+    color: antiquewhite;   
+    
+}
+.songName{
+   text-overflow: hidden;
+}
+
+.roh {
+    margin-left: 10px;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(18, 150, 32);
+    border-radius: 20px;
+    border: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    
+}
+
+.roh span{
+    margin:3px;
+    width: 80px;
+    margin-left: 20px;
+  
+}
+.roh2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: 0px;
+}
+
+.halfDiv2{
+    height: 72vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: auto;
+    
+    
+}
+
+.playTab{
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    
+}
+
+.plyTabdiv1{
+    display: flex;
+    justify-content: center;
+
+}
+.plyTabdiv2{
+    display: flex;
+    justify-content: center;
+
+}
+.plyTabdiv2 span1{
+    margin-top: 12px;
+}
+.playTab img{
+    width: 120px;
+    padding: 10px;
+
+
+}
+
+.songTab{
+    
+    padding: 20px;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 70%;
+    height: 70vh;
+    margin-top:1%;
+    padding: 20px;
+    background-color: rgb(97, 88, 88);
+    display: flex;
+
+    
+
+}
+
+.imgTab img{
+    border-radius: 20px;
+  
+
+}
+.imgTab{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+       
+}
+
+
+
+.bottomContainer{
+    background-color:rgb(0, 0, 0);
+    height: 15vh;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    bottom: 0px;
+    margin-top: 100px;
+    flex-direction:column;
+
+    
+}
+
+.bottomContainerImage{
+    height: 15vh;
+}
+.progressBar{
+    width: 80%;
+    padding: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+}
+.iconsInBar{
+    align-content: center;
+    width: 20%;
+    padding: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    
+
+}
+.iconsInBar i {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;;
+}
+
+
+.bottomContainerImage{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+
+}
